@@ -1,18 +1,14 @@
 repositories {
 jcenter()
   //Add Maven block to your repositories section
-   //maven {
-      //url 'https://repository.cheshmak.me'
-   //}
-   flatDir {
-      dirs 'scripts'
+   maven {
+      url 'https://repository.cheshmak.me'
    }
 }
 
 
 
 dependencies {
-    //implementation 'me.cheshmak:analytics:3.3.0'
-    compile(name:'analytics-3.4.3', ext:'aar')
+    implementation 'me.cheshmak:analytics:3.+'
 
 }
