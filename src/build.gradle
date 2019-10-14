@@ -9,6 +9,6 @@ jcenter()
 
 
 dependencies {
-    implementation 'me.cheshmak:analytics:3.+'
+    implementation 'me.cheshmak:analytics:3.4.3'
 
 }
