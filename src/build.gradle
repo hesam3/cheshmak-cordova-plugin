@@ -5,7 +5,7 @@ jcenter()
       //url 'https://repository.cheshmak.me'
    //}
    flatDir {
-      dirs 'scripts'
+      dirs 'src'
    }
 }
 
