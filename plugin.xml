@@ -30,6 +30,8 @@
         <source-file src="src/CheshmakApplication.java" target-dir="src/me/cheshmak/cordova" />
         <source-file src="src/CheshmakConfigException.java" target-dir="src/me/cheshmak/cordova" />
         <source-file src="src/CheshmakConfigReader.java" target-dir="src/me/cheshmak/cordova" />
+		
+		<lib-file src="libs/analytics-3.4.3.aar" />
 
         <framework src="src/build.gradle" custom="true" type="gradleReference" />
         <framework src="com.google.firebase:firebase-messaging:17.3.4" />
