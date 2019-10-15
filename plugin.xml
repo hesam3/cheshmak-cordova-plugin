@@ -29,15 +29,10 @@
         <source-file src="src/CheshmakCordovaPlugin.java" target-dir="src/me/cheshmak/cordova" />
         <source-file src="src/CheshmakApplication.java" target-dir="src/me/cheshmak/cordova" />
         <source-file src="src/CheshmakConfigException.java" target-dir="src/me/cheshmak/cordova" />
-        <source-file src="src/CheshmakConfigReader.java" target-dir="src/me/cheshmak/cordova" />
-<<<<<<< HEAD
+        <source-file src="src/CheshmakConfigReader.java" target-dir="src/me/cheshmak/cordova" />		
 		
 		<lib-file src="libs/analytics-3.4.3.aar" />
-
-=======
             
-        <lib-file src="src/analytics-3.4.3.aar" />
->>>>>>> 2c20ab618d481071f3fc194f0e9a3ca27c2f2d09
         <framework src="src/build.gradle" custom="true" type="gradleReference" />
         <framework src="com.google.firebase:firebase-messaging:17.3.4" />
         <framework src="com.google.firebase:firebase-ads:17.1.3" />
