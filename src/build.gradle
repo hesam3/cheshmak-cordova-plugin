@@ -5,7 +5,11 @@ jcenter()
       //url 'https://repository.cheshmak.me'
    //}
    flatDir {
+<<<<<<< HEAD
       dirs 'libs'
+=======
+      dirs 'src'
+>>>>>>> 2c20ab618d481071f3fc194f0e9a3ca27c2f2d09
    }
 }
 
@@ -15,4 +19,8 @@ dependencies {
     //implementation 'me.cheshmak:analytics:3.3.0'
     compile(name:'analytics-3.4.3', ext:'aar')
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2c20ab618d481071f3fc194f0e9a3ca27c2f2d09
